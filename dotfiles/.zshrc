@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-prompt)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -101,8 +101,7 @@ alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # PROMPT Color
-# PROMPT Color
-PROMPT='%{$fg[white]%}(%D %*) %{$fg_bold[cyan]%}%n%{$reset_color%}@%{$fg_bold[green]%}WF%{$reset_color%} [%{$fg_bold[yellow]%}%~%{$reset_color%}] $(git_super_status) %# '
+PROMPT='%{$fg[white]%}(%D %*) %{$fg_bold[cyan]%}%n%{$reset_color%}@%{$fg_bold[green]%}wf%{$reset_color%} [%{$fg_bold[yellow]%}%~%{$reset_color%}] $(git_super_status) %# '
 
 # Default values for the appearance of the prompt.
 ZSH_THEME_GIT_PROMPT_PREFIX="("
@@ -134,3 +133,8 @@ alias .6='cd ../../../../../../'            # Go back 6 directory levels
 alias glo='git log --oneline'
 alias glg='git lg'
 alias gs='git status'
+
+# Wayflyer
+alias wf-start='./bin/start'
+alias wf-tasks='./bin/m run-dev-tasks'
+alias wf-ref='./bin/refresh-workspace'
