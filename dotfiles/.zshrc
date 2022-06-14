@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git git-prompt)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,6 +102,7 @@ alias zshconfig="mate ~/.zshrc"
 
 # PROMPT Color
 PROMPT='%{$fg[white]%}(%D %*) %{$fg_bold[cyan]%}%n%{$reset_color%}@%{$fg_bold[green]%}wf%{$reset_color%} [%{$fg_bold[yellow]%}%~%{$reset_color%}] $(git_super_status) %# '
+RPROMPT=''
 
 # Default values for the appearance of the prompt.
 ZSH_THEME_GIT_PROMPT_PREFIX="("
