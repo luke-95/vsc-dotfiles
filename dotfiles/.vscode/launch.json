@@ -40,7 +40,8 @@
             "program": "${workspaceFolder}/manage.py",
             "justMyCode": false,
             "args": [
-                "runserver"
+                "start", 
+                "--noreload"
             ],
             "console": "internalConsole",
             "django": true,
