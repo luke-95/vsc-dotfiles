@@ -146,9 +146,3 @@ function gpoh() {
 alias glo='git log --oneline'
 alias glos='git log --stat --oneline'
 alias gs='git status'
-
-# Wayflyer
-alias wf-start='./manage.py start'
-alias wf-tasks='./bin/m run-dev-tasks'
-alias wf-ref='./bin/refresh-workspace'
-alias wf-refresh='./bin/refresh-workspace'
