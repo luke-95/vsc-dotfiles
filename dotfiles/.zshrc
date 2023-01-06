@@ -101,7 +101,7 @@ alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # PROMPT Color
-PROMPT='%{$fg[white]%}(%D %*) %{$fg_bold[cyan]%}%n%{$reset_color%}@%{$fg_bold[green]%}wf%{$reset_color%} [%{$fg_bold[yellow]%}%~%{$reset_color%}] $(git_super_status) %# '
+PROMPT='%{$fg[white]%}(%D %*) %{$fg_bold[cyan]%}%n%{$reset_color%}@%{$fg_bold[green]%}mt%{$reset_color%} [%{$fg_bold[yellow]%}%~%{$reset_color%}] $(git_super_status) %# '
 RPROMPT=''
 
 # Default values for the appearance of the prompt.
