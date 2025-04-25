@@ -131,13 +131,6 @@ alias .5='cd ../../../../../'               # Go back 5 directory levels
 alias .6='cd ../../../../../../'            # Go back 6 directory levels
 
 # Git
-function gcbw() {
-    ctxt=$1
-    root="wayflyer/lt/"
-    combined="${root}${ctxt}"
-    git checkout -b "${root}${ctxt}"
-}
-
 function gpoh() {
     branch_name=$(git symbolic-ref --short -q HEAD)
     git push origin -u $branch_name
