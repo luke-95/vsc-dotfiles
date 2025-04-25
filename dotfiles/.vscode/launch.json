@@ -48,8 +48,7 @@
             "env": {
                 "USE_NGROK": "True",
                 "AWS_ACCESS_KEY_ID": "",
-                "AWS_SECRET_ACCESS_KEY": "",
-                "CUSTOMER_WEB_UPLOAD_DEV_ROLE": "arn:aws:iam::849891892665:role/wayflyer-customer-uploads-dev"
+                "AWS_SECRET_ACCESS_KEY": "",            
             }
         },
         {
